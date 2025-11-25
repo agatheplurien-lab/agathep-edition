@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Neuropol";
+  src: url("fonts/Neuropol.otf") format("opentype");
+}
+
+.header {
+  position: relative;
+  height: 100px;  /* hauteur de ta bannière */
+  background-image: url("images/bannière.jpeg");
+  background-size: cover;     /* couvre tout le conteneur */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: darkred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* centre verticalement le texte */
+  align-items: flex-end;        /* place le texte à droite */
+  text-align: right;
+  padding-right: 20px; 
+  padding-top : 40px;         /* espace par rapport au bord droit */
+}
+
+.titre {
+    position: absolute;
+    top : 10px;
+    transform: translateY(20%);
+  font-family: 'Neuropol';
+  color: darkred;
+  font-size: 70px;
+  margin-bottom : 20px;
+}
+
+body{
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+#utilisation {
+    top : 350px;
+    left : 60px;
+    position: absolute;
+    max-width : 750px;
+
+}
+
+#intention {
+    font-family : 'neuropol';
+    font-size : 40px;
+}
+
+#texteintention {
+    text-align : justify;
+    font-size : 20px;
+}
+
+#processus {
+    font-family : 'neuropol';
+    font-size : 40px;
+}
+
+#texteprocessus {
+    text-align : justify;
+    font-size : 20px;
+}
+
+#divprocessus {
+    top : 1100px;
+    left : 500px;
+    position : absolute;
+    max-width : 750px;
+}

@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Neuropol";
+  src: url("fonts/Neuropol.otf") format("opentype");
+}
+
+.header {
+  position: relative;
+  height: 100px;  /* hauteur de ta bannière */
+  background-image: url("images/bannière.jpeg");
+  background-size: cover;     /* couvre tout le conteneur */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: darkred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* centre verticalement le texte */
+  align-items: flex-end;        /* place le texte à droite */
+  text-align: right;
+  padding-right: 20px; 
+  padding-top : 40px;         /* espace par rapport au bord droit */
+}
+
+.titre {
+    position: absolute;
+    top : 10px;
+    transform: translateY(20%);
+  font-family: 'Neuropol';
+  color: darkred;
+  font-size: 70px;
+  margin-bottom : 20px;
+}
+
+body{
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+#containertable {
+    top:400px;
+  display: flex;
+  flex-direction: row-reverse;           
+  justify-content: space-between;
+  align-items: flex-start;   /* aligne en haut */
+  margin-top: 150px;             /* espace par rapport aux bords de la page */
+  gap: 40px;                /* espace entre l'image et le texte */
+}
+
+#table {
+  display: inline-block;
+   flex: 1;    /* ou block si tu veux que ça prenne toute la largeur */
+  top: 350px;
+  left: 50px;
+  text-align: center;  
+  width : 48%;   /* centre la légende sous l'image */
+}
+
+#imgtable {
+  max-width: 100%;       /* ajuste la taille de l'image */
+  height: auto;
+  border-radius: 30px;    /* coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ombre portée */
+}
+
+#textetable{
+    max-width: 600px;
+    flex: 1; 
+    margin-left : 50px;                
+}
+
+#citationtable{
+    text-align : justify;
+    font-size : 15px;
+}
+
+#desctable{
+    text-align : justify;
+    max-width : 550px;
+    font-size : 20px;
+}
+
+#titretable{
+    font-family : 'neuropol';
+}
+
+#containercorps {
+    top:900px;
+  display: flex;           
+  justify-content: space-between;
+  align-items: flex-start;   /* aligne en haut */
+  margin-top: 150px;             /* espace par rapport aux bords de la page */
+  gap: 40px;                /* espace entre l'image et le texte */
+}
+
+#corps {
+  display: inline-block;
+   flex: 1;    /* ou block si tu veux que ça prenne toute la largeur */
+  top: 350px;
+  left: 50px;
+  text-align: center;  
+  width : 48%;   /* centre la légende sous l'image */
+}
+
+#imgcorps {
+  max-width: 100%;       /* ajuste la taille de l'image */
+  height: auto;
+  border-radius: 30px;    /* coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ombre portée */
+}
+
+#textecorps{
+    max-width: 600px;
+    flex: 1; 
+    margin-left : 50px;                
+}
+
+#citationcorps{
+    text-align : justify;
+    font-size : 15px;
+}
+
+#desccorps{
+    text-align : justify;
+    max-width : 550px;
+    font-size : 20px;
+}
+
+#titrecorps{
+    font-family : 'neuropol';
+}
+
+#containercage {
+    top:1300px;
+  display: flex;
+  flex-direction: row-reverse;           
+  justify-content: space-between;
+  align-items: flex-start;   /* aligne en haut */
+  margin-top: 150px;             /* espace par rapport aux bords de la page */
+  gap: 40px;                /* espace entre l'image et le texte */
+}
+
+#cage {
+  display: inline-block;
+   flex: 1;    /* ou block si tu veux que ça prenne toute la largeur */
+  top: 350px;
+  left: 50px;
+  text-align: center;  
+  width : 48%;   /* centre la légende sous l'image */
+}
+
+#imgcage {
+  max-width: 100%;       /* ajuste la taille de l'image */
+  height: auto;
+  border-radius: 30px;    /* coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ombre portée */
+}
+
+#textecage{
+    max-width: 600px;
+    flex: 1; 
+    margin-left : 50px;                
+}
+
+#citationcage{
+    text-align : justify;
+    font-size : 15px;
+}
+
+#desccage{
+    text-align : justify;
+    max-width : 550px;
+    font-size : 20px;
+}
+
+#titrecage{
+    font-family : 'neuropol';
+}

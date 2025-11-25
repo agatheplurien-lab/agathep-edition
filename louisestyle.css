@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "Neuropol";
+  src: url("fonts/Neuropol.otf") format("opentype");
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.header {
+  position: relative;
+  height: 100px;  /* hauteur de ta bannière */
+  background-image: url("images/bannière.jpeg");
+  background-size: cover;     /* couvre tout le conteneur */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: darkred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* centre verticalement le texte */
+  align-items: flex-end;        /* place le texte à droite */
+  text-align: right;
+  padding-right: 20px; 
+  padding-top : 40px;         /* espace par rapport au bord droit */
+}
+
+.titre {
+    position: absolute;
+    top : 10px;
+    transform: translateY(20%);
+  font-family: 'Neuropol';
+  color: darkred;
+  font-size: 70px;
+  margin-bottom : 20px;
+}
+
+body{
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.introduction{
+    font-size: 25px;
+    max-width: 450px;                  /* largeur du pavé */
+  background-color: rgba(255,255,255,0.8); /* fond semi-transparent */
+  padding: 15px;
+  border-radius: 10px;
+  text-align: justify;
+  color: black;                   /* espace autour du pavé */
+  float: right;
+margin: 120px 20px 0 auto;
+}
+
+#interview {
+  position: absolute; /* position relative au body */
+  top: 500px;           /* distance depuis le haut de la page */
+  left: 20px;         /* distance depuis le bord gauche */
+}
+
+#lieninterview {
+  position: relative;
+  display: inline-block; /* pour que le span absolu se positionne par rapport à l'a */
+}
+
+#odealoubli{
+  margin: 24px;
+  width: 150px;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+#odealoubli:hover {
+  animation-play-state: paused; /* stoppe l'animation */
+}
+
+#hoverode {
+  display: none;
+  position: absolute;
+  left: calc(100% + 10px); /* juste à droite de l'image ode */
+  top: 50%;                 /* milieu vertical du parent */
+  transform: translateY(-50%); /* ajuste pour centrer par rapport à l'image */
+  background-color: rgba(255,255,255,0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: darkred;
+  white-space: nowrap;
+  font-size: 14px;
+  font-family: 'Neuropol';
+}
+
+#odealoubli:hover + #hoverode {
+  display: block;
+}
+
+#oeuvres {
+  position: absolute; /* position relative au body */
+  top: 700px;           /* distance depuis le haut de la page */
+  left:190px;         /* distance depuis le bord gauche */
+}
+
+#lienoeuvres {
+  position: relative;
+  display: inline-block; /* pour que le span absolu se positionne par rapport à l'a */
+}
+
+#ihavebeen{
+  margin: 24px;
+  width: 120px;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+#ihavebeen:hover {
+  animation-play-state: paused; /* stoppe l'animation */
+}
+
+#hoverbeen {
+  display: none;
+  position: absolute;
+  left: calc(100% + 10px); /* juste à droite de l'image ode */
+  top: 50%;                 /* milieu vertical du parent */
+  transform: translateY(-50%); /* ajuste pour centrer par rapport à l'image */
+  background-color: rgba(255,255,255,0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: darkred;
+  white-space: nowrap;
+  font-size: 14px;
+  font-family: 'Neuropol';
+}
+
+#ihavebeen:hover + #hoverbeen {
+  display: block;
+}
+
+#critique {
+  position: absolute; /* position relative au body */
+  top: 900px;           /* distance depuis le haut de la page */
+  left:400px;         /* distance depuis le bord gauche */
+}
+
+#liencritique {
+  position: relative;
+  display: inline-block; /* pour que le span absolu se positionne par rapport à l'a */
+}
+
+#phallus{
+  margin: 24px;
+  width: 120px;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+#phallus:hover {
+  animation-play-state: paused; /* stoppe l'animation */
+}
+
+#hoverphallus {
+  display: none;
+  position: absolute;
+  left: calc(100% + 10px); /* juste à droite de l'image ode */
+  top: 50%;                 /* milieu vertical du parent */
+  transform: translateY(-50%); /* ajuste pour centrer par rapport à l'image */
+  background-color: rgba(255,255,255,0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: darkred;
+  white-space: nowrap;
+  font-size: 14px;
+  font-family: 'Neuropol';
+}
+
+#phallus:hover + #hoverphallus {
+  display: block;
+}
+
+#bibliographie {
+  position: absolute; /* position relative au body */
+  top: 1080px;           /* distance depuis le haut de la page */
+  left:550px;         /* distance depuis le bord gauche */
+}
+
+#lienbiblio {
+  position: relative;
+  display: inline-block; /* pour que le span absolu se positionne par rapport à l'a */
+}
+
+#tete{
+  margin: 24px;
+  width: 120px;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+#tete:hover {
+  animation-play-state: paused; /* stoppe l'animation */
+}
+
+#hovertete {
+  display: none;
+  position: absolute;
+  left: calc(100% + 10px); /* juste à droite de l'image ode */
+  top: 50%;                 /* milieu vertical du parent */
+  transform: translateY(-50%); /* ajuste pour centrer par rapport à l'image */
+  background-color: rgba(255,255,255,0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: darkred;
+  white-space: nowrap;
+  font-size: 14px;
+  font-family: 'Neuropol';
+}
+
+#tete:hover + #hovertete {
+  display: block;
+}

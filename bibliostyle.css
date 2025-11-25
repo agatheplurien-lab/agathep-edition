@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Neuropol";
+  src: url("fonts/Neuropol.otf") format("opentype");
+}
+
+.header {
+  position: relative;
+  height: 100px;  /* hauteur de ta bannière */
+  background-image: url("images/bannière.jpeg");
+  background-size: cover;     /* couvre tout le conteneur */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: darkred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* centre verticalement le texte */
+  align-items: flex-end;        /* place le texte à droite */
+  text-align: right;
+  padding-right: 20px; 
+  padding-top : 25px;         /* espace par rapport au bord droit */
+}
+
+.titre {
+    position: absolute;
+    top : 15px;
+    transform: translateY(20%);
+  font-family: 'Neuropol';
+  color: darkred;
+  font-size: 70px;
+  margin-bottom : 20px;
+}
+
+body{
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.nolink {
+  color: inherit;         /* prend la couleur du texte autour */
+  text-decoration: none;  /* enlève le soulignement */
+}
+
+#chat{
+    font-size : 30px;
+}
+
+#texte{
+    top : 350px;
+    left : 60px;
+    position: absolute;
+    max-width : 750px;
+}
+
+#denis{
+    font-size : 30px;
+}
+
+#pdf{
+    font-size : 30px;
+}
+
+#deepai{
+    font-size : 30px;
+}
+
+#minduploading{
+    font-size : 30px;
+}
+
+#femmecouteau{
+    font-size : 30px;
+}
+
+#unevie{
+    font-size : 30px;
+}
+
+#deepfake{
+    font-size : 30px;
+}   

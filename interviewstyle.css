@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Neuropol";
+  src: url("fonts/Neuropol.otf") format("opentype");
+}
+
+.header {
+  position: relative;
+  height: 100px;  /* hauteur de ta bannière */
+  background-image: url("images/bannière.jpeg");
+  background-size: cover;     /* couvre tout le conteneur */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: darkred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* centre verticalement le texte */
+  align-items: flex-end;        /* place le texte à droite */
+  text-align: right;
+  padding-right: 20px; 
+  padding-top : 40px;         /* espace par rapport au bord droit */
+}
+
+.titre {
+    position: absolute;
+    top : 10px;
+    transform: translateY(20%);
+  font-family: 'Neuropol';
+  color: darkred;
+  font-size: 70px;
+  margin-bottom : 20px;
+}
+
+body{
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.introduction{
+    font-size: 20px;
+    max-width: 450px;                  /* largeur du pavé */
+  background-color: rgba(255,255,255,0.8); /* fond semi-transparent */
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  color: black;                   /* espace autour du pavé */
+  float: right;
+margin: 120px 20px 0 auto;
+}
+
+#interview {
+    max-width: 850px; 
+  position: absolute; /* position relative au body */
+  top: 600px;           /* distance depuis le haut de la page */
+  left: 20px; 
+  text-align: justify;        /* distance depuis le bord gauche */
+}
+
+.highlight {
+    color: darkred
+}
