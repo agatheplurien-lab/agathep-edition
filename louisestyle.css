@@ -89,7 +89,6 @@ margin: 120px 20px 0 auto;
   left: calc(100% + 10px); /* juste à droite de l'image ode */
   top: 50%;                 /* milieu vertical du parent */
   transform: translateY(-50%); /* ajuste pour centrer par rapport à l'image */
-  background-color: rgba(255,255,255,0.8);
   padding: 5px 10px;
   border-radius: 5px;
   color: darkred;
@@ -129,7 +128,6 @@ margin: 120px 20px 0 auto;
   left: calc(100% + 10px); /* juste à droite de l'image ode */
   top: 50%;                 /* milieu vertical du parent */
   transform: translateY(-50%); /* ajuste pour centrer par rapport à l'image */
-  background-color: rgba(255,255,255,0.8);
   padding: 5px 10px;
   border-radius: 5px;
   color: darkred;
@@ -169,7 +167,6 @@ margin: 120px 20px 0 auto;
   left: calc(100% + 10px); /* juste à droite de l'image ode */
   top: 50%;                 /* milieu vertical du parent */
   transform: translateY(-50%); /* ajuste pour centrer par rapport à l'image */
-  background-color: rgba(255,255,255,0.8);
   padding: 5px 10px;
   border-radius: 5px;
   color: darkred;
@@ -209,7 +206,6 @@ margin: 120px 20px 0 auto;
   left: calc(100% + 10px); /* juste à droite de l'image ode */
   top: 50%;                 /* milieu vertical du parent */
   transform: translateY(-50%); /* ajuste pour centrer par rapport à l'image */
-  background-color: rgba(255,255,255,0.8);
   padding: 5px 10px;
   border-radius: 5px;
   color: darkred;
